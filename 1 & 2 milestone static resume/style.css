@@ -1,0 +1,129 @@
+/* General Styling */
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #002244;
+    color: white;
+    width: 35%;
+    padding: 25px;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 15px auto;
+    border: 3px solid beige;
+}
+
+.left-section h3 {
+    color: beige;
+    font-size: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid beige;
+    padding-bottom: 5px;
+}
+
+.left-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+/* Right Section Styling */
+.right-section {
+    background-color: #fff;
+    color: #002244;
+    width: 65%;
+    padding: 30px;
+}
+
+.right-section h1 {
+    color: #002244;
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #002244;
+    padding-bottom: 10px;
+}
+
+.right-section h3 {
+    color: #002244;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #002244;
+    padding-bottom: 5px;
+}
+
+.right-section p, .right-section a {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.right-section a {
+    text-decoration: none;
+    color: #002244;
+}
+
+.right-section a:hover {
+    text-decoration: underline;
+}
+
+/* Skills Section List */
+#Skills ul {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+#Skills li {
+    background-color: #e0e5ec;
+    color: #002244;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Toggle Button Styling */
+#toggle-skills {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #002244;
+    color: beige;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#toggle-skills:hover {
+    background-color: beige;
+    color: #002244;
+}
